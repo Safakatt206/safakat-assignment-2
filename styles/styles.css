@@ -31,6 +31,12 @@
     width: 197px;
     height: 50px; }
 
+    
+    main > section{
+      margin-top: 130px;
+    }
+    
+
   /* img styles */
   
   .btn-primary{
@@ -101,6 +107,84 @@
   .banner-description{
     font-size: 1.3rem;
   }
+  /* Standard Curriculum */
+  .sec-1{
+    max-width: 1440;
+    margin: 0 auto;
+    background-image: url('../assets/bg.png');
+  background-repeat: no-repeat;
+  }
+ 
+  .standard{
+   display: grid;
+   grid-template-columns: repeat(3, 1fr);
+   justify-content: space-between;
+   align-self:center;
+   max-width: 1440px;
+   margin: 0 auto;
+   margin-top: 20px;
+  }
+    
+  
+  .stand-1{
+    background: linear-gradient(#DEF5FF, #FFFFFF);
+
+  }
+  .stand-2{
+    background: linear-gradient(#FFF4DC, #FFFFFF);
+
+  }
+  .stand-3{
+    background: linear-gradient(#EEE1FF, #FFFFFF);
+  }
+    
+    
+    
+    
+  
+  
+  .standard-1{
+    border: 1px solid #DEF5FF;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    width: 368px;
+    height: 476px;
+    border-radius: 18px;
+    display: flex;
+    
+    
+    
+  }
+  .satndard-curriculum{
+   text-align: center;
+  }
+  .btn-1{
+    border: none;
+    color:#6cbee1;
+    background-color: white;
+    font-weight: 700;
+  }
+  .btn-2{
+    border: none;
+    color:#F0AA00;
+    background-color: white;
+    font-weight: 700;
+  }
+  .btn-3{
+    border: none;
+    color:#8700FF;
+    background-color: white;
+    font-weight: 700;
+
+  }
+
+
+    
+  .pp-1{
+    color: #808080;
+  }
+
 
 
   /* rosponsive media query */
