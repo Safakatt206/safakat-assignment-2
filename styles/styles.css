@@ -108,21 +108,20 @@
     font-size: 1.3rem;
   }
   /* Standard Curriculum */
-  .sec-1{
-    max-width: 1440;
-    margin: 0 auto;
-    background-image: url('../assets/bg.png');
-  background-repeat: no-repeat;
-  }
+  
+    
+ 
  
   .standard{
    display: grid;
    grid-template-columns: repeat(3, 1fr);
    justify-content: space-between;
-   align-self:center;
+   align-items:center;
    max-width: 1440px;
    margin: 0 auto;
    margin-top: 20px;
+   background-image: url('../assets/bg.png');
+  
   }
     
   
@@ -183,6 +182,113 @@
     
   .pp-1{
     color: #808080;
+  }
+  .fa-solid-fa-arrow{
+    display: flex;
+    width: 60px;
+    align-items: center;
+  }
+
+  /* our story */
+  .img-1{
+    width: 100%;
+    
+    
+    
+  }
+  .Our-Storie{
+    text-align: center;
+    font-size: 3rem;
+    font-weight: bold;
+  }
+  .sec-2{
+    background-image: url('../assets/bg.png');
+  
+    background: linear-gradient( #FFFFFF, #FFF4DC);}
+    
+  .family{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1440px;
+    margin: 0 auto;
+    
+    
+
+  }
+  .hero-1{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+    max-width: 601px;
+    max-height: 630px;
+    gap: 20px;
+    
+
+    
+  }
+  .A-fun-toddler{
+    max-width: 544px;
+    max-height: 630px;
+   
+    border-radius: 10px;
+    text-align: center;
+    background-color: white;
+  }
+  .november{
+    
+    max-width: 290px;
+    align-items: center;
+    border-radius: 16px;
+    text-align: center;
+    background-color: white;
+
+  }
+  #our-story{
+    padding: 25px 20px;
+    font-size: 1rem;
+    font-weight: 700;
+    margin-top: -100px ;
+    margin-left: -120px;
+    border: none;
+    background-color: #3CD8E8;
+    border-radius: 47px;
+    color: white;
+    position: relative; left: 20px;;
+    
+   
+  }
+  .family-1{
+    font-weight: 700;
+    font-size: 1.5rem;
+  }
+  .beautiful{
+    font-size: 0.9rem;
+    font-weight: 500;
+  }
+  .november img{
+    width: 100%;
+  }
+  #our-story-1{
+   padding: 15px 30px ;
+    font-size: 0.9rem;
+    font-weight: 500;
+    margin-top: -400px ;
+    margin-left: -100px;
+    border: none;
+    background-color: #3ce88f;
+    border-radius: 47px;
+    color: white;
+   
+    
+  }
+  .View-All{
+
+justify-content: space-between;
+align-items: center;
+    
   }
 
 
