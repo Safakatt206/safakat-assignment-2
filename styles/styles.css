@@ -79,7 +79,8 @@
   /* banner  */
   .banner{
     
-    max-width: 1440px;
+    max-width: 1152px;
+    max-height: 557px;
     
     margin: 0 auto;
     display: flex;
@@ -109,7 +110,12 @@
   }
   /* Standard Curriculum */
   
+  .sec-6{
+    max-width: 1440px ;
+    margin: 0 auto;
+    background-image: url('../assets/bg.png');
     
+  }
  
  
   .standard{
@@ -117,10 +123,11 @@
    grid-template-columns: repeat(3, 1fr);
    justify-content: space-between;
    align-items:center;
-   max-width: 1440px;
-   margin: 0 auto;
+   max-width: 1152px;
+    max-height: 482px;
    margin-top: 20px;
-   background-image: url('../assets/bg.png');
+   padding: 150px;
+   
   
   }
     
@@ -201,17 +208,20 @@
     font-size: 3rem;
     font-weight: bold;
   }
-  .sec-2{
+  .sec-5{
     background-image: url('../assets/bg.png');
   
-    background: linear-gradient( #FFFFFF, #FFF4DC);}
+    background: linear-gradient( #FFFFFF, #FFF4DC);
+  max-width: 1448px;
+margin: 0 auto;}
     
   .family{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
-    max-width: 1440px;
-    margin: 0 auto;
+    max-width: 1152px;
+    max-height: 557px;
+    padding: 150px;
     
     
 
@@ -220,8 +230,8 @@
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     align-items: center;
-    justify-content: space-between;
-    margin: 0 auto;
+   
+    justify-content: center;
     max-width: 601px;
     max-height: 630px;
     gap: 20px;
@@ -230,8 +240,8 @@
     
   }
   .A-fun-toddler{
-    max-width: 544px;
-    max-height: 630px;
+    max-width: 540px;
+    max-height: 700px;
    
     border-radius: 10px;
     text-align: center;
@@ -244,6 +254,8 @@
     border-radius: 16px;
     text-align: center;
     background-color: white;
+    margin-right: 20px;
+    gap: 20px;
 
   }
   #our-story{
@@ -251,45 +263,86 @@
     font-size: 1rem;
     font-weight: 700;
     margin-top: -100px ;
-    margin-left: -120px;
+    margin-left: -150px;
+    border-radius: 46px;
     border: none;
-    background-color: #3CD8E8;
-    border-radius: 47px;
-    color: white;
-    position: relative; left: 20px;;
-    
+    background-color: #6cbee1;
+    color: #FFFFFF;
    
   }
-  .family-1{
-    font-weight: 700;
-    font-size: 1.5rem;
-  }
-  .beautiful{
-    font-size: 0.9rem;
-    font-weight: 500;
-  }
-  .november img{
-    width: 100%;
-  }
   #our-story-1{
-   padding: 15px 30px ;
+   padding: 20px 40px ;
     font-size: 0.9rem;
     font-weight: 500;
-    margin-top: -400px ;
-    margin-left: -100px;
+    margin-top: -200px ;
+    margin-left: -50px;
     border: none;
     background-color: #3ce88f;
     border-radius: 47px;
     color: white;
+    
    
     
   }
-  .View-All{
+  .view-all{
+  
+ 
 
-justify-content: space-between;
-align-items: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 1440px;
+    margin: 0 auto;
+    margin-top: 20px;
+
+
     
   }
+  .marquee{
+    color: rgb(240, 255, 71);
+    font-size: 2rem;
+    background-color: rgb(220, 162, 68);
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1440px;
+    margin: 0 auto;
+    margin-top: 20px;
+    
+  }
+  .Kids-Education{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1157px ;
+    margin: 0 auto;
+    max-height: 519px;
+  }
+  .sec-7{
+    max-width: 1448px;
+    margin: 0 auto;
+    background-color: slategrey;
+
+}
+.din-1{
+ 
+}
+.kids-2{
+  font-size: 1rem;
+  margin-right: 100px;
+}
+.sec-8{
+ 
+  
+}
+.kids-1{
+  font-size: 3rem;
+  font-weight: bold;
+}
+    
+  
+  
 
 
 
@@ -298,8 +351,7 @@ align-items: center;
     .banner-image{
 
     }
-    .banner
-    {
+    .banner{
       flex-direction: column-reverse;
      
       justify-items: center;
@@ -324,6 +376,10 @@ align-items: center;
     .btn-primary{
       display: none;
     }
+    .family, .november{
+      flex-direction: column;
     }
-  
+
+    }
+    
  
